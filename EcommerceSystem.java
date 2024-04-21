@@ -9,7 +9,7 @@ public class EcommerceSystem {
         Product clothingProduct = new ClothingProduct(2, "T-shirt", 20, "M", "Cotton");
         Product bookProduct = new BookProduct(3, "Java Programming", 45, "John Doe", "ABC Publications");
 
-        Customer customer = new Customer(101, "John Doe", "123 Main St");
+        Customer customer = new Customer(23011555, "Makrious", "Mohram Bek");
 
         Product[] products = {electronicProduct, clothingProduct, bookProduct};
         Order order = new Order(customer.getCustomerId(), 1, products);
